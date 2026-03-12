@@ -1,0 +1,21 @@
+{
+  "name": "everything-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Everything by VoidTools",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.6",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
