@@ -1,7 +1,7 @@
 {
   "name": "everything-mcp",
   "version": "1.0.0",
-  "description": "MCP server for Everything by VoidTools",
+  "description": "MCP server for Everything by VoidTools — fast filesystem search for Claude Desktop (Windows)",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.6",
-    "axios": "^1.7.9"
+    "koffi": "^2.15.2"
   },
   "devDependencies": {
     "@types/node": "^22.10.3",
